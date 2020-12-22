@@ -43,5 +43,7 @@ elif(userInput == 1 and cmpGuess == 2):
   print("You Lose")
 elif(userInput == 2 and cmpGuess == 0):
   print("You Lose")
+elif userInput > 2:
+  print("Invalid Input, You Lose")
 else:
   print("You Won")
